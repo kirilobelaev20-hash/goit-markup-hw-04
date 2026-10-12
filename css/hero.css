@@ -1,0 +1,39 @@
+.hero {
+  padding: 188px 0;
+  background-color: #2e2f42;
+}
+
+.hero-container {
+  text-align: center;
+}
+
+.hero-title {
+  max-width: 496px;
+  margin: 0 auto 48px;
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.main-button {
+  display: block;
+  min-width: 169px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+}

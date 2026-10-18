@@ -5,7 +5,7 @@
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .footer-info {
@@ -40,4 +40,9 @@
 
 .footer-social .social-list {
   gap: 16px;
+}
+
+.footer-social .social-link:hover,
+.footer-social .social-link:focus {
+  background-color: #31d0aa;
 }
